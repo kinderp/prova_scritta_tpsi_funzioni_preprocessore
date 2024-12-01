@@ -21,7 +21,7 @@ int moltiplicazione(int fattore1, int fattore2){
 	return fattore1 * fattore2;
 }
 
-int divisione(int dividendo, int divisore){
+float divisione(float dividendo, float divisore){
 	#ifdef DEBUG
 	TRACE();
 	#endif
